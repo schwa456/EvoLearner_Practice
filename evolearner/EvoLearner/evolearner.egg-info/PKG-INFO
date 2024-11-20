@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: evolearner
+Version: 0.0.2
+Summary: Learning Description Logics with Evolutionary Algorithms
+Author: No Author
+Author-email: No email
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: ==3.6.9
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn==0.24.2
+Requires-Dist: owlready2==0.35
+Requires-Dist: deap==1.3.1
+Requires-Dist: rdflib==5.0.0
+Requires-Dist: matplotlib==3.3.4
+Requires-Dist: tabulate==0.8.9
+Requires-Dist: pandas==1.1.5
+
+# EvoLearner

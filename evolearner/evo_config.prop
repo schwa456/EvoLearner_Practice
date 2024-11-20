@@ -1,0 +1,7 @@
+learningtask=family
+learningproblem=uncle
+filename.workdir=./workdir
+filename.output=output.txt
+maxExecutionTime=600
+filename.pos=pos.txt
+filename.neg=neg.txt
