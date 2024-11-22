@@ -147,7 +147,7 @@ def converting_into_DL_formula(data_name):
     file_path_for_colab = f"/content/EvoLearner_Practice/evolearner/workdir/output_{data_name}.txt"
     file_path_for_local = f"./workdir/output_{data_name}.txt"
 
-    with open(file_path_for_local, "r") as f:
+    with open(file_path_for_colab, "r") as f:
         text = f.read()
         converting = convert_into_DL_format(text)
         result = final_converter(converting)
