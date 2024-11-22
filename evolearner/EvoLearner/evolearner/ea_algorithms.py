@@ -51,7 +51,7 @@ def ea_simple(toolbox, population, ngen, verbose, cxpb=0.9,
         if verbose and g == 0:
             print("\nGeneration: ", g+1, "-----------------------------")
             toolbox.print(population)
-        if verbose and g+1 % 10 == 0:
+        elif verbose and g+1 % 10 == 0:
             print("\nGeneration: ", g+1, "-----------------------------")
             toolbox.print(population)
 
