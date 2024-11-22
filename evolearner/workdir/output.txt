@@ -1,1 +1,0 @@
-intersection(Male, union(existsmarried(Female), existshasSibling(existshasParent(Grandfather))))

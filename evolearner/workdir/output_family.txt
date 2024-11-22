@@ -1,0 +1,1 @@
+intersection(Male, union(existsmarried(existshasSibling(Parent)), existshasSibling(Parent)))
